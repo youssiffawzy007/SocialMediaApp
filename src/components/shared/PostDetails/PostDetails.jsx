@@ -4,7 +4,7 @@ import { TokenContext } from "../../../context/TokenContext";
 import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
 import PostLoading from "../PostLoading/PostLoading";
-import Post from "../posts/Post";
+import Post from "../Posts/Post";
 import BackButton from "../BackButton/BackButton";
 export default function PostDetails() {
   const { id } = useParams();

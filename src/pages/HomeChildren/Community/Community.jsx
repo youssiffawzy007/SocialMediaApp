@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import Post from "../../../components/shared/posts/Post";
+import Post from "../../../components/shared/Posts/Post";
 import axios from "axios";
 import { TokenContext } from "../../../context/TokenContext";
 import { useQuery } from "@tanstack/react-query";
